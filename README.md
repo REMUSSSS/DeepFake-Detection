@@ -6,7 +6,8 @@ AI資訊偵測與倫理_許志仲 作業
 This project implements prompt-tuning on CLIP for cross-manipulation deepfake detection, following the strict protocol of the Assignment-1-DFD.  
 - **Training:** Only on Real_youtube + FaceSwap frames  
 - **Testing:** Only on NeuralTextures frames  
-- **Backbone:** CLIP ViT-B/32 (frozen)  
+- **Backbone:** CLIP ViT-B/32 (frozen)
+- **Pretrained weights:** https://huggingface.co/openai/clip-vit-base-patch32 
 - **Adaptation:** Prompt tuning + linear classifier
 
 ## Folder Structure
@@ -44,7 +45,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Quick Start
+## Quick Start (run_all.sh)
 ```
 python train.py && python eval.py
 ```
