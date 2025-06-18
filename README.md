@@ -41,7 +41,7 @@ This project implements prompt-tuning on CLIP for cross-manipulation deepfake de
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
