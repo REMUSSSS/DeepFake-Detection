@@ -15,7 +15,7 @@ This project implements prompt-tuning on CLIP for cross-manipulation deepfake de
 
 ## Dataset Preparation
 
-1. **Download** the dataset from the official link (see assignment PDF).
+1. **Download** the dataset from the link: https://www.dropbox.com/t/2Amyu4D5TulaIofv .
 2. **Unzip** the archive so you have the following structure:
     ```
     data/
